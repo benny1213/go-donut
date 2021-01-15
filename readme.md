@@ -2,7 +2,7 @@
 
 # go-donut
 
-![image-20210116000044645](/Users/xujiahan/project/go-donut/imgs/image-20210116000044645.png)
+![image-20210116000044645](./imgs/image-20210116000044645.png)
 
 ## 获取控制台窗口大小
 
@@ -18,7 +18,7 @@
 
 donut是通过一个圆绕着一个圆外的轴旋转 $2\pi$ 而成, 如图：
 
-![image-20210115160450137](/Users/xujiahan/project/go-donut/imgs/image-20210115160450137.png)
+![image-20210115160450137](./imgs/image-20210115160450137.png)
 
 所以圆的公式为：$(x,y)=(R2+R1\times cos(\theta), R1\times sin(\theta))$
 
