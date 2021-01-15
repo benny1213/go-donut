@@ -68,9 +68,12 @@ $$ -->
     0&0&1
   \end{matrix}
 \right]
-$$
+$$ -->
+
+![三轴旋转](https://latex.codecogs.com/svg.latex?%28x%2Cy%2Cz%29%20%3D%20%0A%28R2%20%2B%20R1%5Ccdot%20%5Ccos%28%5Ctheta%29%2C%20R1%5Ccdot%20%5Csin%28%5Ctheta%29%2C%200%29%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%20%5Ccos%28%5Cphi%29%260%26%5Csin%28%5Cphi%29%20%5C%5C%0A%20%20%20%200%261%260%20%5C%5C%0A%20%20%20%20-%5Csin%28%5Cphi%29%260%26%5Ccos%28%5Cphi%29%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%201%260%260%5C%5C%0A%20%20%20%200%26%5Ccos%28A%29%26-%5Csin%28A%29%5C%5C%0A%20%20%20%200%26%5Csin%28A%29%26%5Ccos%28A%29%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%20%5Ccos%28B%29%26-%5Csin%28B%29%260%20%5C%5C%0A%20%20%20%20%5Csin%28B%29%26%5Ccos%28B%29%260%20%5C%5C%0A%20%20%20%200%260%261%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D)
+
 化简得：
-$$
+<!-- $$
 x = 
 (R2 + R1\cos(\theta)) \cdot (\cos(\phi)\cos(B) + \sin(\phi)\sin(A)\sin(B)) - 
 R1\sin(\theta)\cos(A)\sin(B)\\
@@ -80,8 +83,9 @@ R1\sin(\theta)\cos(A)\cos(B)\\
 z = 
 (R2 + R1\cos(\theta))\sin(\phi)\cos(A)+R1\sin(\theta)\sin(A)
 $$ -->
-![化简](https://latex.codecogs.com/svg.latex?%28x%2Cy%2Cz%29%20%3D%20%0A%28R2%20%2B%20R1%5Ccdot%20%5Ccos%28%5Ctheta%29%2C%20R1%5Ccdot%20%5Csin%28%5Ctheta%29%2C%200%29%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%20%5Ccos%28%5Cphi%29%260%26%5Csin%28%5Cphi%29%20%5C%5C%0A%20%20%20%200%261%260%20%5C%5C%0A%20%20%20%20-%5Csin%28%5Cphi%29%260%26%5Ccos%28%5Cphi%29%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%201%260%260%5C%5C%0A%20%20%20%200%26%5Ccos%28A%29%26-%5Csin%28A%29%5C%5C%0A%20%20%20%200%26%5Csin%28A%29%26%5Ccos%28A%29%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%20%5Ccos%28B%29%26-%5Csin%28B%29%260%20%5C%5C%0A%20%20%20%20%5Csin%28B%29%26%5Ccos%28B%29%260%20%5C%5C%0A%20%20%20%200%260%261%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D)
-将 $\theta$ 和 $\phi$ 从 0 转到  $2\pi$ , 选定A、B的值，再将(x,y,z)坐标填上字符就可以得到一个donut了！
+![化简](https://latex.codecogs.com/svg.latex?x%20%3D%20%28R2%20%2B%20R1%5Ccos%28%5Ctheta%29%29%20%5Ccdot%20%28%5Ccos%28%5Cphi%29%5Ccos%28B%29%20%2B%20%5Csin%28%5Cphi%29%5Csin%28A%29%5Csin%28B%29%29%20-%20R1%5Csin%28%5Ctheta%29%5Ccos%28A%29%5Csin%28B%29%5C%5C%0Ay%20%3D%20%28R2%20%2B%20R1%5Ccos%28%5Ctheta%29%29%20%5Ccdot%20%28%5Ccos%28%5Cphi%29%5Csin%28B%29%20-%20%5Csin%28%5Cphi%29%5Csin%28A%29%5Ccos%28B%29%29%20%2BR1%5Csin%28%5Ctheta%29%5Ccos%28A%29%5Ccos%28B%29%5C%5C%0Az%20%3D%20%28R2%20%2B%20R1%5Ccos%28%5Ctheta%29%29%5Csin%28%5Cphi%29%5Ccos%28A%29%2BR1%5Csin%28%5Ctheta%29%5Csin%28A%29)
+
+将 <!--$\theta$-->![](https://latex.codecogs.com/svg.latex?%5Ctheta) 和 <!--$\phi$-->![](https://latex.codecogs.com/svg.latex?%5Cphi) 从 0 转到  <!--$2\pi$-->![](https://latex.codecogs.com/svg.latex?2%5Cpi) , 选定A、B的值，再将(x,y,z)坐标填上字符就可以得到一个donut了！
 
 
 
@@ -98,30 +102,32 @@ $$ -->
 \cdot
 \left[
   \begin{matrix}
-    \cos(\phi)&0&\sin(\phi) \\
-    0&1&0 \\
-    -\sin(\phi)&0&\cos(\phi)
+​    \cos(\phi)&0&\sin(\phi) \\
+​    0&1&0 \\
+​    -\sin(\phi)&0&\cos(\phi)
   \end{matrix}
 \right]
 \cdot
 \left[
   \begin{matrix}
-    1&0&0\\
-    0&\cos(A)&-\sin(A)\\
-    0&\sin(A)&\cos(A)
+​    1&0&0\\
+​    0&\cos(A)&-\sin(A)\\
+​    0&\sin(A)&\cos(A)
   \end{matrix}
 \right]
 \cdot
 \left[
   \begin{matrix}
-    \cos(B)&-\sin(B)&0 \\
-    \sin(B)&\cos(B)&0 \\
-    0&0&1
+​    \cos(B)&-\sin(B)&0 \\
+​    \sin(B)&\cos(B)&0 \\
+​    0&0&1
   \end{matrix}
 \right]
 $$ -->
 ![面向量](https://latex.codecogs.com/svg.latex?%28N_x%2CN_y%2CN_z%29%20%3D%20%0A%28%5Ccos%28%5Ctheta%29%2C%20%5Csin%28%5Ctheta%29%2C%200%29%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%20%5Ccos%28%5Cphi%29%260%26%5Csin%28%5Cphi%29%20%5C%5C%0A%20%20%20%200%261%260%20%5C%5C%0A%20%20%20%20-%5Csin%28%5Cphi%29%260%26%5Ccos%28%5Cphi%29%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%201%260%260%5C%5C%0A%20%20%20%200%26%5Ccos%28A%29%26-%5Csin%28A%29%5C%5C%0A%20%20%20%200%26%5Csin%28A%29%26%5Ccos%28A%29%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D%0A%5Ccdot%0A%5Cleft%5B%0A%20%20%5Cbegin%7Bmatrix%7D%0A%20%20%20%20%5Ccos%28B%29%26-%5Csin%28B%29%260%20%5C%5C%0A%20%20%20%20%5Csin%28B%29%26%5Ccos%28B%29%260%20%5C%5C%0A%20%20%20%200%260%261%0A%20%20%5Cend%7Bmatrix%7D%0A%5Cright%5D)
-​	然后再计算donut上每个点所在面上的法向量 N 与光线向量的内积L （$-\sqrt2 < L < \sqrt2$）：
+​ 	
+
+然后再计算donut上每个点所在面上的法向量 N 与光线向量的内积L （<!-- $-\sqrt2 < L < \sqrt2$ --> ![](https://latex.codecogs.com/svg.latex?-%5Csqrt2%20%3C%20L%20%3C%20%5Csqrt2)）：
 <!-- $$
 L=
 \cos(\theta)\cos(\phi)\sin(B) +
@@ -131,6 +137,8 @@ L=
 \cos(\theta)\sin(\phi)\cos(A)
 $$-->
 ![流明计算](https://latex.codecogs.com/svg.latex?L%3D%0A%5Ccos%28%5Ctheta%29%5Ccos%28%5Cphi%29%5Csin%28B%29%20%2B%0A%5Csin%28%5Ctheta%29%5Ccos%28A%29%5Ccos%28B%29%20-%20%5C%5C%0A%5Ccos%28%5Ctheta%29%5Csin%28%5Cphi%29%5Csin%28A%29%5Ccos%28B%29%20-%0A%5Csin%28%5Ctheta%29%5Csin%28A%29%20-%20%0A%5Ccos%28%5Ctheta%29%5Csin%28%5Cphi%29%5Ccos%28A%29)
-​    $L<0$ 说明该点背向光线，$L>0$说明该点朝向光线且L的大小代表光线强度
+​    
+
+`L<0`说明该点背向光线，`L>0`说明该点朝向光线且L的大小代表光线强度
 
 ​	最后我们用  `.,-~:;=!*#$@` 这几个符号代表光强即可勾勒出donut上的光影
